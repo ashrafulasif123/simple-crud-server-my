@@ -71,6 +71,7 @@ async function run() {
       const update = {
         $set: {
           name: updatedProduct.name,
+          price: updatedProduct.price,
         },
       };
       const options = {};
